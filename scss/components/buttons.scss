@@ -1,0 +1,44 @@
+//
+// Grid
+//
+
+button,
+input[type='button'],
+a[role='button'] {
+  background-color: $ui-default;
+  color: $ui-white;
+  display: inline-block;
+  font: inherit;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: baseline;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  outline: none;
+  padding: $eleven $forty-one;
+
+  & svg {
+    width: 1rem;
+    height: auto;
+  }
+
+  &:active {
+    cursor: pointer;
+  }
+}
+
+.primary {
+  background-color: $ui-primary;
+}
+
+.secondary {
+  background-color: $ui-secondary;
+}
+
+button:hover,
+input[type='button']:hover,
+a[role='button']:hover {
+  opacity: 0.9;
+  transition: border-color $tran ease-in-out;
+}

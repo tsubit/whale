@@ -1,0 +1,38 @@
+{
+  "name": "whale",
+  "version": "1.0.0",
+  "keywords": [
+    "css-framework",
+    "micro-framework",
+    "css",
+    "html"
+  ],
+  "description": "Un marco CSS ligero, para la creación rápida de prototipos de cualquier tipo de aplicación",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass scss/whale.scss css/whale.css -w",
+    "minify": "uglifycss css/whale.css > css/whale.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsubit/whale.git"
+  },
+  "author": "Francisco Campos",
+  "email": "",
+  "url": "https://github.com/WeissZero",
+  "license": "ISC",
+  "contributors": [
+    "Contributors (https://github.com/tsubit/whale/graphs/contributors)"
+  ],
+  "bugs": {
+    "url": "https://github.com/tsubit/whale/issues"
+  },
+  "homepage": "https://github.com/tsubit/whale#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "uglifycss": "0.0.29"
+  }
+}

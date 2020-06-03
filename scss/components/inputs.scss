@@ -1,0 +1,26 @@
+//
+// Inputs
+//
+
+input {
+  padding: $ten;
+  background-color: $ui-white;
+  color: $input-color;
+  border: $input-border;
+  outline: none;
+  transition: border-color $tran ease-in-out;
+
+  &:focus {
+    border-color: $input-focused-border-color;
+  }
+}
+
+textarea {
+  @extend input;
+  resize: vertical;
+}
+
+// Placeholder custom color
+::placeholder {
+  color: $input-color;
+}

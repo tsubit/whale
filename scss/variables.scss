@@ -1,0 +1,50 @@
+// Table of Contents
+//
+// Colors
+// Inputs
+// Breakpoint
+// transition
+
+//
+// Colors
+//
+$ui-default: #3e3f5e !default;
+$ui-primary: #1bc5d4 !default;
+$ui-secondary: #603fd0 !default;
+$ui-text: #3e3f5e !default;
+$ui-border: #615dfa;
+$ui-gray: hsl(0, 0%, 60%) !default;
+$ui-white: #ffffff !default;
+
+$text-color: $ui-text !default;
+$secondary-color: $ui-gray !default;
+
+//
+// Inputs
+//
+
+$input-color: $text-color !default;
+$input-border: 2px solid $ui-gray !default;
+$input-focused-border-color: $ui-border !default;
+
+//
+// Breakpoint
+//
+
+$breakpoint-small: 33.75em; // 540px
+$breakpoint-med: 45em; // 720px
+$breakpoint-large: 60em; // 960px
+
+//
+// Transition
+//
+
+$tran: 0.2s;
+
+//
+// Number
+//
+
+$ten: 10px;
+$eleven: 11px;
+$forty-one: 41px;
